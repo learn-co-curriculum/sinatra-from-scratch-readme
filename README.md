@@ -1,8 +1,15 @@
 # Sinatra From Scratch
 
+## Overview
+
+We'll cover the components of a basic Sinatra application and how to create a local host server to view the application in the browser.
+
 ## Objectives
 
-Understand the components of a basic Sinatra application and how to create a local host server to view the application in the browser.
+1. Review gems and how to keep them updated using `bundle install`
+2. Describe the purpose of the application controller and `app.rb` in Sinatra
+3. Create a local host server to view an application in a browser
+
 
 ## Basic Sinatra App
 
@@ -14,20 +21,20 @@ The first thing you need to do is enter in terminal `bundle install`. Just like 
 
 ### `app.rb`
 
-The `app.rb` is the heart and soul of a Sinatra application. This is our application controller. The application controller handles all incoming requests to our app, and sends back the appropriate responses to the client.
+The `app.rb` file is the heart and soul of a Sinatra application. This is our application controller. The application controller handles all incoming requests to our app, and sends back the appropriate responses to the client.
 
-The first line of `app.rb` is just requiring the Sinatra gem so we can incorporate it's functionality.
+The first line of `app.rb` is just requiring the Sinatra gem so that we can incorporate its functionality.
 
 On the next line, we define a class `App` and have it inherit from `Sinatra::Base`. This way, any instance of our class App will have all the functionality of the Sinatra class.
 
-Inside our class, we have a Sinatra method define, or controller action. This method responds to a `GET` request to the root url and displays the text `Hello, World!` in the browser.
+Inside our class we have a Sinatra method define, or controller action. This method responds to a `GET` request to the root url and displays the text `Hello, World!` in the browser.
 
 
 ### Starting The App
 
-To actually check if our app is working in the browser, in terminal enter `rackup app.rb`. 
+To actually check if our app is working in the browser, enter `rackup app.rb` in your terminal. 
 
-Sinatra relies on Rack for their middleware. Because we have the Sinatra gem listed in our Gemfile, we automatically have the Rack middleware setup.
+Sinatra relies on Rack for its middleware. Because we have the Sinatra gem listed in our Gemfile, we automatically have the Rack middleware setup.
 
 Once your server is running, visit `localhost:9292` in the browser to see `Hello, World!` displayed.
 
