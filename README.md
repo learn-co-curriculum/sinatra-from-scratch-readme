@@ -8,8 +8,7 @@ We'll cover the components of a basic Sinatra application and how to create a lo
 
 1. Review gems and how to keep them updated using `bundle install`
 2. Describe the purpose of the application controller and `app.rb` in Sinatra
-3. Create a local host server to view an application in a browser
-
+3. Run a Sinatra app by entering `rackup app.rb` in your terminal 
 
 ## Basic Sinatra App
 
