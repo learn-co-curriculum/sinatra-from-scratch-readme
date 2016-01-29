@@ -38,4 +38,4 @@ Sinatra relies on Rack for its middleware. Because we have the Sinatra gem liste
 Once your server is running, visit `localhost:9292` in the browser to see `Hello, World!` displayed.
 
 
-<a href='https://learn.co/lessons/sinatra-from-scratch-readme' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/sinatra-from-scratch-readme' title='Sinatra From Scratch'>Sinatra From Scratch</a> on Learn.co and start learning to code for free.</p>
