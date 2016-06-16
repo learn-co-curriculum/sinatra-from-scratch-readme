@@ -28,7 +28,7 @@ The first line of `app.rb` is just requiring the Sinatra gem so that we can inco
 
 On the next line, we define a class `App` and have it inherit from `Sinatra::Base`. This way, any instance of our class App will have all the functionality of the Sinatra class.
 
-Inside our class we have a Sinatra method define, or controller action. This method responds to a `GET` request to the root url and displays the text `Hello, World!` in the browser.
+Inside our class we have a Sinatra method define our controller action. This method responds to a `GET` request to the root url and displays the text `Hello, World!` in the browser.
 
 
 ### Starting The App
@@ -41,3 +41,5 @@ Once your server is running, visit `localhost:9292` in the browser to see `Hello
 
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/sinatra-from-scratch-readme' title='Sinatra From Scratch'>Sinatra From Scratch</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/sinatra-from-scratch-readme'>Sinatra from Scratch</a> on Learn.co and start learning to code for free.</p>
