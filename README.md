@@ -14,7 +14,7 @@ We'll cover the components of a basic Sinatra application and how to create a lo
 
 ### Sinatra Gem
 
-This is not a lab, as there's nothing for you to submit. But to follow along with the lesson, make sure you fork and clone this repository.
+This is not a lab, as there's nothing for you to submit. But to follow along with the lesson, make sure you fork and clone [this repository](https://github.com/learn-co-curriculum/sinatra-from-scratch-readme).
 
 It's important to note that Sinatra is just a gem. It's a library of code that developers wrote to allow us to build light-weight web applications quickly. If you take a look at our `Gemfile` (a list of all the gems our application uses), you will see the Sinatra gem listed.
 
