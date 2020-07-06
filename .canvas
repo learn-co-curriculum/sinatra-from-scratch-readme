@@ -1,0 +1,6 @@
+---
+:lessons:
+- :id: 10500
+  :course_id: 342
+  :canvas_url: https://learning.flatironschool.com/courses/342/pages/sinatra-from-scratch-readme
+  :type: page
