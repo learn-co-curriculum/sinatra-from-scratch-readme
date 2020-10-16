@@ -37,7 +37,3 @@ To actually check if our app is working in the browser, enter `rackup app.rb` in
 Sinatra relies on Rack for its middleware. Middleware is software that bridges the connection between our Ruby application and the database. Because we have the Sinatra gem listed in our Gemfile, we automatically have the Rack middleware setup.
 
 Once your server is running, visit `localhost:9292` in the browser to see `Hello, World!` displayed.
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/sinatra-from-scratch-readme' title='Sinatra From Scratch'>Sinatra From Scratch</a> on Learn.co and start learning to code for free.</p>
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/sinatra-from-scratch-readme'>Sinatra from Scratch</a> on Learn.co and start learning to code for free.</p>
